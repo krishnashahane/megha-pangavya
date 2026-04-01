@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3e5f5"/>
+      <stop offset="100%" stop-color="#e1bee7"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a5c2a"/>
+      <stop offset="30%" stop-color="#2d7a3f"/>
+      <stop offset="70%" stop-color="#1a5c2a"/>
+      <stop offset="100%" stop-color="#134a20"/>
+    </linearGradient>
+    <linearGradient id="oil" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8bc34a" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#33691e" stop-opacity="0.6"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="50" cy="80" r="40" fill="#9c27b0" opacity="0.05"/>
+  <g filter="url(#shadow)">
+    <path d="M155,165 Q145,170 145,185 L145,295 Q145,315 165,315 L235,315 Q255,315 255,295 L255,185 Q255,170 245,165 Z" fill="url(#bottle)"/>
+    <rect x="178" y="115" width="44" height="55" rx="5" fill="url(#bottle)"/>
+    <path d="M172,95 L228,95 Q235,95 235,102 L235,118 Q235,122 228,122 L172,122 Q165,122 165,118 L165,102 Q165,95 172,95Z" fill="#c9a84c"/>
+    <rect x="185" y="88" width="30" height="12" rx="4" fill="#d4b96a"/>
+    <rect x="155" y="200" width="90" height="105" rx="0" fill="url(#oil)"/>
+    <rect x="155" y="195" width="90" height="80" rx="0" fill="white" opacity="0.92"/>
+    <text x="200" y="215" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#1a5c2a" font-weight="bold">PANCHGAVYA</text>
+    <text x="200" y="232" text-anchor="middle" font-family="Georgia,serif" font-size="14" fill="#c9a84c" font-weight="bold">Hair Oil</text>
+    <text x="200" y="252" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Bhringraj + Amla + Brahmi</text>
+    <text x="200" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#999">200ml</text>
+    <rect x="155" y="170" width="7" height="60" rx="3.5" fill="white" opacity="0.2"/>
+  </g>
+  <g opacity="0.3">
+    <circle cx="95" cy="200" r="12" fill="#4caf50"/>
+    <circle cx="95" cy="200" r="8" fill="#66bb6a"/>
+    <circle cx="310" cy="180" r="6" fill="#ffd54f"/>
+    <circle cx="310" cy="180" r="3" fill="#ffb300"/>
+  </g>
+  <text x="200" y="352" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#1a5c2a">Panchgavya Hair Oil</text>
+  <text x="200" y="374" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#c9a84c" letter-spacing="2">MEGHA'S PANCHGAVYA</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e1f5fe"/>
+      <stop offset="100%" stop-color="#b3e5fc"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1a5c2a"/>
+      <stop offset="25%" stop-color="#2d7a3f"/>
+      <stop offset="75%" stop-color="#1a5c2a"/>
+      <stop offset="100%" stop-color="#134a20"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="340" cy="70" r="45" fill="#0288d1" opacity="0.05"/>
+  <g filter="url(#shadow)">
+    <!-- Pump bottle body -->
+    <path d="M148,175 Q140,180 140,195 L140,300 Q140,315 155,315 L245,315 Q260,315 260,300 L260,195 Q260,180 252,175 Z" fill="url(#bottle)"/>
+    <!-- Pump mechanism -->
+    <rect x="185" y="115" width="30" height="65" rx="4" fill="#c9a84c"/>
+    <!-- Pump head -->
+    <rect x="175" y="100" width="50" height="20" rx="6" fill="#d4b96a"/>
+    <!-- Pump nozzle -->
+    <rect x="220" y="105" width="25" height="8" rx="3" fill="#c9a84c"/>
+    <circle cx="248" cy="109" r="4" fill="#b08f3a"/>
+    <!-- Label -->
+    <rect x="148" y="200" width="104" height="85" rx="6" fill="white" opacity="0.92"/>
+    <text x="200" y="222" text-anchor="middle" font-family="Georgia,serif" font-size="8" fill="#1a5c2a" font-weight="bold">PANCHGAVYA</text>
+    <text x="200" y="242" text-anchor="middle" font-family="Georgia,serif" font-size="15" fill="#c9a84c" font-weight="bold">Shampoo</text>
+    <line x1="162" y1="248" x2="238" y2="248" stroke="#0288d1" stroke-width="0.5" opacity="0.3"/>
+    <text x="200" y="262" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#666">Reetha + Shikakai + Amla</text>
+    <text x="200" y="276" text-anchor="middle" font-family="Arial,sans-serif" font-size="6" fill="#999">200ml | Sulfate Free</text>
+    <!-- Shine -->
+    <rect x="150" y="185" width="7" height="60" rx="3.5" fill="white" opacity="0.2"/>
+  </g>
+  <!-- Water droplets -->
+  <g fill="#4fc3f7" opacity="0.3">
+    <path d="M90,200 C88,195 85,190 90,186 C95,190 92,195 90,200Z"/>
+    <path d="M80,220 C78,216 76,212 80,209 C84,212 82,216 80,220Z"/>
+    <path d="M315,230 C313,225 310,220 315,216 C320,220 317,225 315,230Z"/>
+    <path d="M330,210 C328,207 327,203 330,201 C333,203 332,207 330,210Z"/>
+    <path d="M100,260 C98,256 96,252 100,249 C104,252 102,256 100,260Z"/>
+  </g>
+  <!-- Shikakai pod -->
+  <g transform="translate(82,160)" opacity="0.3">
+    <ellipse rx="12" ry="6" fill="#795548"/>
+    <path d="M10,-2 C15,-8 12,-15 8,-12" fill="#4caf50"/>
+  </g>
+  <text x="200" y="352" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#1a5c2a">Panchgavya Shampoo</text>
+  <text x="200" y="374" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#c9a84c" letter-spacing="2">MEGHA'S PANCHGAVYA</text>
+</svg>

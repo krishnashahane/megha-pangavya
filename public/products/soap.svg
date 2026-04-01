@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7fa"/>
+      <stop offset="100%" stop-color="#b2ebf2"/>
+    </linearGradient>
+    <linearGradient id="soapBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9c4"/>
+      <stop offset="50%" stop-color="#f0e68c"/>
+      <stop offset="100%" stop-color="#daa520"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <path d="M120,200 L160,170 L300,170 L260,200 Z" fill="#f5e6a0"/>
+    <path d="M120,200 L120,265 Q120,275 130,275 L250,275 Q260,275 260,265 L260,200 Z" fill="url(#soapBody)"/>
+    <path d="M260,200 L300,170 L300,235 Q300,245 290,245 L260,265 Z" fill="#c9a84c"/>
+    <text x="190" y="230" text-anchor="middle" font-family="Georgia,serif" font-size="11" font-weight="bold" fill="#8b7355" opacity="0.5">COW MILK</text>
+    <text x="190" y="248" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#8b7355" opacity="0.5">SOAP</text>
+    <path d="M185,255 C180,261 185,271 195,268 C200,261 195,255 185,255Z" fill="#8b7355" opacity="0.2"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6">
+    <circle cx="100" cy="150" r="12"/><circle cx="120" cy="130" r="8"/><circle cx="85" cy="170" r="6"/>
+    <circle cx="310" cy="130" r="10"/><circle cx="330" cy="155" r="7"/><circle cx="150" cy="100" r="9"/>
+    <circle cx="280" cy="290" r="8"/><circle cx="110" cy="290" r="6"/>
+  </g>
+  <g fill="white" opacity="0.8">
+    <circle cx="96" cy="146" r="2"/><circle cx="307" cy="127" r="1.5"/><circle cx="148" cy="97" r="1.5"/>
+  </g>
+  <g transform="translate(310,200) rotate(15)" opacity="0.35">
+    <path d="M0,0 C-8,-15 -5,-30 0,-40 C5,-30 8,-15 0,0Z" fill="#2e7d32"/>
+    <line x1="0" y1="0" x2="0" y2="-40" stroke="#1a5c2a" stroke-width="0.8"/>
+  </g>
+  <text x="200" y="350" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#1a5c2a">Desi Cow Milk Soap</text>
+  <text x="200" y="372" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#c9a84c" letter-spacing="2">MEGHA'S PANCHGAVYA</text>
+</svg>

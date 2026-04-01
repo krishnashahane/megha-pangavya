@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d3d16;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a5c2a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8c95a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c9a84c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a8883c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldShine" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0d878;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c9a84c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="248" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="4"/>
+
+  <!-- Outer golden mandala ring -->
+  <circle cx="256" cy="256" r="230" fill="none" stroke="url(#goldGrad)" stroke-width="2.5" opacity="0.8"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="url(#goldGrad)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Mandala petal pattern - outer ring -->
+  <g transform="translate(256,256)" opacity="0.7">
+    <g fill="none" stroke="#c9a84c" stroke-width="1.5">
+      <ellipse rx="18" ry="45" transform="rotate(0) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(30) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(60) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(90) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(120) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(150) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(180) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(210) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(240) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(270) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(300) translate(0,-200)"/>
+      <ellipse rx="18" ry="45" transform="rotate(330) translate(0,-200)"/>
+    </g>
+  </g>
+
+  <!-- Inner decorative dots on mandala ring -->
+  <g fill="#c9a84c" opacity="0.9">
+    <circle cx="256" cy="36" r="5"/>
+    <circle cx="366" cy="66" r="5"/>
+    <circle cx="446" cy="146" r="5"/>
+    <circle cx="476" cy="256" r="5"/>
+    <circle cx="446" cy="366" r="5"/>
+    <circle cx="366" cy="446" r="5"/>
+    <circle cx="256" cy="476" r="5"/>
+    <circle cx="146" cy="446" r="5"/>
+    <circle cx="66" cy="366" r="5"/>
+    <circle cx="36" cy="256" r="5"/>
+    <circle cx="66" cy="146" r="5"/>
+    <circle cx="146" cy="66" r="5"/>
+  </g>
+
+  <!-- Second mandala ring -->
+  <circle cx="256" cy="256" r="175" fill="none" stroke="#c9a84c" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Small decorative arcs between rings -->
+  <g transform="translate(256,256)" fill="none" stroke="#c9a84c" stroke-width="1" opacity="0.4">
+    <path d="M0,-190 Q20,-180 0,-170"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(30)"/>
+    <path d="M0,-190 Q20,-180 0,-170" transform="rotate(60)"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(90)"/>
+    <path d="M0,-190 Q20,-180 0,-170" transform="rotate(120)"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(150)"/>
+    <path d="M0,-190 Q20,-180 0,-170" transform="rotate(180)"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(210)"/>
+    <path d="M0,-190 Q20,-180 0,-170" transform="rotate(240)"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(270)"/>
+    <path d="M0,-190 Q20,-180 0,-170" transform="rotate(300)"/>
+    <path d="M0,-190 Q-20,-180 0,-170" transform="rotate(330)"/>
+  </g>
+
+  <!-- Inner golden circle -->
+  <circle cx="256" cy="256" r="150" fill="none" stroke="url(#goldShine)" stroke-width="3"/>
+
+  <!-- Cow/Gaumata silhouette - stylized and elegant -->
+  <g transform="translate(256,220)" filter="url(#glow)">
+    <!-- Cow body -->
+    <path d="M-60,30 C-60,10 -50,-15 -35,-25 C-20,-35 -5,-38 10,-35 C25,-32 40,-25 50,-15 C60,-5 65,10 65,30 C65,45 60,55 50,60 L-45,60 C-55,55 -60,45 -60,30Z"
+          fill="url(#goldGrad)" opacity="0.95"/>
+    <!-- Cow head -->
+    <path d="M-60,20 C-70,10 -80,-5 -85,-20 C-88,-30 -82,-40 -75,-42 C-68,-44 -60,-38 -58,-28 C-56,-18 -58,0 -60,20Z"
+          fill="url(#goldGrad)" opacity="0.95"/>
+    <!-- Cow horn left -->
+    <path d="M-80,-35 C-88,-55 -82,-70 -72,-72 C-65,-70 -68,-55 -72,-40"
+          fill="none" stroke="#e8c95a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Cow horn right -->
+    <path d="M-68,-40 C-60,-58 -50,-65 -45,-60 C-48,-52 -55,-42 -62,-35"
+          fill="none" stroke="#e8c95a" stroke-width="4" stroke-linecap="round"/>
+    <!-- Cow ear -->
+    <ellipse cx="-73" cy="-30" rx="8" ry="5" fill="#c9a84c" transform="rotate(-20,-73,-30)"/>
+    <!-- Cow eye -->
+    <circle cx="-75" cy="-18" r="3" fill="#0d3d16"/>
+    <!-- Cow legs -->
+    <rect x="-45" y="55" width="8" height="35" rx="3" fill="url(#goldGrad)"/>
+    <rect x="-25" y="55" width="8" height="38" rx="3" fill="url(#goldGrad)"/>
+    <rect x="25" y="55" width="8" height="38" rx="3" fill="url(#goldGrad)"/>
+    <rect x="45" y="55" width="8" height="35" rx="3" fill="url(#goldGrad)"/>
+    <!-- Cow tail -->
+    <path d="M62,25 C75,15 82,25 78,40 C76,46 72,48 70,45"
+          fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round"/>
+    <!-- Cow hump -->
+    <path d="M-20,-35 C-15,-55 0,-60 10,-55 C18,-50 20,-40 15,-32"
+          fill="url(#goldGrad)"/>
+    <!-- Udder -->
+    <ellipse cx="5" cy="62" rx="15" ry="8" fill="#e8c95a" opacity="0.7"/>
+  </g>
+
+  <!-- Decorative leaf motifs around cow -->
+  <g fill="#2d8a3e" opacity="0.6">
+    <path d="M150,200 C140,185 155,170 165,180 C175,190 165,205 150,200Z"/>
+    <path d="M362,200 C372,185 357,170 347,180 C337,190 347,205 362,200Z"/>
+    <path d="M145,320 C135,310 145,295 155,300 C165,310 155,325 145,320Z"/>
+    <path d="M367,320 C377,310 367,295 357,300 C347,310 357,325 367,320Z"/>
+  </g>
+
+  <!-- Brand text "MP" -->
+  <text x="256" y="380" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="bold" fill="url(#goldShine)" filter="url(#shadow)">MP</text>
+
+  <!-- Brand name curved at bottom -->
+  <path id="bottomArc" d="M120,400 Q256,480 392,400" fill="none"/>
+  <text font-family="Georgia, serif" font-size="18" fill="#c9a84c" letter-spacing="2">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">MEGHA'S PANCHGAVYA</textPath>
+  </text>
+
+  <!-- Top decorative text -->
+  <path id="topArc" d="M130,130 Q256,55 382,130" fill="none"/>
+  <text font-family="Georgia, serif" font-size="14" fill="#c9a84c" letter-spacing="3" opacity="0.7">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">PURE &amp; NATURAL</textPath>
+  </text>
+</svg>

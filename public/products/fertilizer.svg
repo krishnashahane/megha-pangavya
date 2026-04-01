@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#efebe9"/>
+      <stop offset="100%" stop-color="#d7ccc8"/>
+    </linearGradient>
+    <linearGradient id="bag" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#795548"/>
+      <stop offset="30%" stop-color="#8d6e63"/>
+      <stop offset="70%" stop-color="#795548"/>
+      <stop offset="100%" stop-color="#5d4037"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.15"/></filter>
+  </defs>
+  <rect width="400" height="400" rx="24" fill="url(#bg)"/>
+  <circle cx="320" cy="80" r="40" fill="#795548" opacity="0.06"/>
+  <!-- Bag -->
+  <g filter="url(#shadow)">
+    <path d="M115,160 L110,300 Q110,315 125,315 L275,315 Q290,315 290,300 L285,160 Z" fill="url(#bag)"/>
+    <!-- Bag top fold -->
+    <path d="M115,160 C115,145 140,135 200,135 C260,135 285,145 285,160 Z" fill="#8d6e63"/>
+    <path d="M125,158 C125,148 155,140 200,140 C245,140 275,148 275,158" fill="none" stroke="#a1887f" stroke-width="1"/>
+    <!-- Label -->
+    <rect x="135" y="185" width="130" height="90" rx="6" fill="white" opacity="0.92"/>
+    <text x="200" y="208" text-anchor="middle" font-family="Georgia,serif" font-size="9" font-weight="bold" fill="#1a5c2a">ORGANIC</text>
+    <text x="200" y="228" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-weight="bold" fill="#c9a84c">Gobar</text>
+    <text x="200" y="245" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-weight="bold" fill="#c9a84c">Fertilizer</text>
+    <line x1="155" y1="252" x2="245" y2="252" stroke="#795548" stroke-width="0.5" opacity="0.3"/>
+    <text x="200" y="267" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="#666" font-weight="bold">1 KG</text>
+    <!-- Stitching on bag -->
+    <line x1="120" y1="170" x2="280" y2="170" stroke="#a1887f" stroke-width="1" stroke-dasharray="4,3"/>
+  </g>
+  <!-- Growing plants -->
+  <g opacity="0.4">
+    <line x1="310" y1="250" x2="310" y2="195" stroke="#2e7d32" stroke-width="2"/>
+    <path d="M310,215 C300,205 300,195 310,195 C320,195 320,205 310,215Z" fill="#4caf50"/>
+    <path d="M310,230 C320,220 325,210 310,210" fill="none" stroke="#4caf50" stroke-width="1.5"/>
+    <path d="M310,228 C300,220 295,210 310,210" fill="none" stroke="#4caf50" stroke-width="1.5"/>
+    <line x1="85" y1="280" x2="85" y2="230" stroke="#2e7d32" stroke-width="1.5"/>
+    <path d="M85,250 C75,240 78,230 85,230 C92,230 95,240 85,250Z" fill="#66bb6a"/>
+    <path d="M85,265 C92,257 95,248 85,248" fill="none" stroke="#66bb6a" stroke-width="1.2"/>
+  </g>
+  <!-- Soil dots at bottom -->
+  <g fill="#5d4037" opacity="0.15">
+    <circle cx="150" cy="330" r="3"/><circle cx="170" cy="335" r="2"/><circle cx="230" cy="332" r="3"/>
+    <circle cx="200" cy="328" r="2"/><circle cx="260" cy="335" r="2"/>
+  </g>
+  <text x="200" y="355" text-anchor="middle" font-family="Georgia,serif" font-size="17" font-weight="bold" fill="#5d4037">Gobar Fertilizer</text>
+  <text x="200" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#c9a84c" letter-spacing="2">MEGHA'S PANCHGAVYA</text>
+</svg>
